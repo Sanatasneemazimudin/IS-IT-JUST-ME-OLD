@@ -1,20 +1,20 @@
+# 📍 IS IT JUST ME?
 
-### 📍 IS IT JUST ME?
-
-### A Hyper-Local, Real-Time Issue Verification Platform
+## A Hyper-Local, Real-Time Issue Verification Platform
 
 **IS IT JUST ME?** is a map-based community verification tool that helps residents quickly confirm whether others nearby are experiencing the same civic or utility issue — and automatically escalates verified problems to the right authorities.
 
 Small problems shouldn’t stay invisible. This platform turns isolated frustrations into actionable community signals.
 
 ---
-### 👥 Contributors
+
+## 👥 Contributors
 
 **Sana Tasneem Azimudin • Nivriti Muthu Vairavan • Yashika V • Sharmu R**
 
 ---
 
-# ## 🚨 Problem
+## 🚨 Problem
 
 Many civic and infrastructure issues begin as *small, localized problems* — low water pressure, power flickers, potholes, internet outages. People often assume:
 
@@ -34,7 +34,7 @@ There is currently **no simple, hyper-local, real-time system** that lets reside
 
 ---
 
-# ## 💡 Solution
+## 💡 Solution
 
 **IS IT JUST ME?** is a **hyper-local, map-based polling and issue validation platform**.
 
@@ -53,21 +53,21 @@ If enough verified users say **yes**, the system flags the issue as **Verified**
 
 ---
 
-# ## ⭐ Core Features
+## ⭐ Core Features
 
-### ### 1. Issue Creation & Polling
+### 1. Issue Creation & Polling
 
 * Post specific, location-based issues
 * Must be framed as a **yes/no question**
 * Includes category, timestamp, severity
 
-### ### 2. Location-Based Verification
+### 2. Location-Based Verification
 
 * Votes counted only from users within a defined radius
 * Radius varies by issue type
 * Prevents trolling and false reports
 
-### ### 3. Vote Threshold & Auto-Escalation
+### 3. Vote Threshold & Auto-Escalation
 
 * Each issue has a minimum vote threshold
 * Once reached:
@@ -75,7 +75,7 @@ If enough verified users say **yes**, the system flags the issue as **Verified**
   * Issue becomes **Verified**
   * Alerts sent via API, email, or dashboard
 
-### ### 4. Issue Reposting & Persistence
+### 4. Issue Reposting & Persistence
 
 * If unresolved or under-voted:
 
@@ -83,7 +83,7 @@ If enough verified users say **yes**, the system flags the issue as **Verified**
   * Expands radius
   * Notifies nearby users again
 
-### ### 5. Regional Bulletin Board
+### 5. Regional Bulletin Board
 
 * Shows:
 
@@ -92,7 +92,7 @@ If enough verified users say **yes**, the system flags the issue as **Verified**
   * Emergency alerts
 * Sortable by urgency, votes, time active
 
-### ### 6. Range Control
+### 6. Range Control
 
 * Users choose geographic impact:
 
@@ -101,19 +101,19 @@ If enough verified users say **yes**, the system flags the issue as **Verified**
   * District
   * City-wide
 
-### ### 7. Authentication & Trust System
+### 7. Authentication & Trust System
 
 * Login via phone, email, or optional government ID
 * Trust score increases with accurate participation
 
-### ### 8. Emergency Mode (Low / No Internet)
+### 8. Emergency Mode (Low / No Internet)
 
 * For fires, gas leaks, flooding, power failures
 * Supports SMS/USSD posting
 * Offline caching
 * Emergency posts bypass thresholds
 
-### ### 9. Severity Levels
+### 9. Severity Levels
 
 | Level | Description         |
 | ----- | ------------------- |
@@ -126,20 +126,20 @@ Higher levels require fewer votes and escalate faster.
 
 ---
 
-# ## 🔧 Additional Enhancements
+## 🔧 Additional Enhancements
 
-### ### Authority Dashboard
+### Authority Dashboard
 
 * Heat maps
 * Trend analysis
 * Response tracking
 
-### ### Transparency & Resolution Tracking
+### Transparency & Resolution Tracking
 
 * Statuses: Reported → Acknowledged → In Progress → Resolved
 * Users notified when fixed
 
-### ### Privacy Protection
+### Privacy Protection
 
 * Exact locations never shown
 * Only approximate zones
@@ -147,13 +147,13 @@ Higher levels require fewer votes and escalate faster.
 
 ---
 
-# ## 🎯 One-Line Pitch
+## 🎯 One-Line Pitch
 
 > **“IS IT JUST ME?” turns isolated frustrations into verified community signals—so small problems get fixed before they become big ones.”**
 
 ---
 
-# ## 🛠️ Tech Stack (Suggested)
+## 🛠️ Tech Stack (Suggested)
 
 You can adjust this based on your implementation.
 
@@ -166,36 +166,36 @@ You can adjust this based on your implementation.
 
 ---
 
-# ## 🚀 Getting Started
+## 🚀 Getting Started
 
-### ### 1. Clone the repo
+### 1. Clone the repo
 
-```
+```bash
 git clone https://github.com/your-username/is-it-just-me.git
 cd is-it-just-me
 ```
 
-### ### 2. Install dependencies
+### 2. Install dependencies
 
-```
+```bash
 npm install
 ```
 
-### ### 3. Start development server
+### 3. Start development server
 
-```
+```bash
 npm run dev
 ```
 
-### ### 4. Build for production
+### 4. Build for production
 
-```
+```bash
 npm run build
 ```
 
 ---
 
-# ## 📌 Roadmap
+## 📌 Roadmap
 
 * [ ] User-to-user chat for verified issues
 * [ ] Push notifications for nearby problems
@@ -205,9 +205,11 @@ npm run build
 
 ---
 
-# ## 🤝 Contributing
+## 🤝 Contributing
 
 Pull requests are welcome!
+
 For major changes, please open an issue first to discuss what you’d like to modify.
 
 ---
+
